@@ -1,21 +1,53 @@
-extends layout
-block content
-    header.card-header Gone Garbage Co.
-        h4.card-title Login  
-    form(method="POST" action='/login')
-        div.form-row
-            div.col.form-group
-                label User name
-                input.form-control(name="username")
-        div.form-row
-            div.col.form-group
-                label Enter Password
-                input.form-control(type="password" name="password")
-        div.form-row
-            div.col.form-group
-                button.btn.btn-primary.btn-block Login
-        div.form-row
-            div.col.form-group
-                a(class='button', href='/register') Register
-            div.pull-right
-                a(class='button', href='/') Home Page
+//- extends layout
+//- block content
+//-     header.card-header Gone Garbage Co.
+//-         h4.card-title Login  
+//-     form(method="POST" action='/login')
+//-         div.form-row
+//-             div.col.form-group
+//-                 label User name
+//-                 input.form-control(name="username")
+//-         div.form-row
+//-             div.col.form-group
+//-                 label Enter Password
+//-                 input.form-control(type="password" name="password")
+//-         div.form-row
+//-             div.col.form-group
+//-                 button.btn.btn-primary.btn-block Login
+//-         div.form-row
+//-             div.col.form-group
+//-                 a(class='button', href='/register') Register
+//-             div.pull-right
+//-                 a(class='button', href='/') Home Page
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Log In
+    link(rel='stylesheet' href='bootstrap/css/bootstrap.css')
+    link(rel='stylesheet' href='/css/style.css')
+  body
+    .container-fluid
+      .form-row
+        .col-7(style='background-color: whitesmoke;')
+          img.logo(src='/images/logo2.png' alt='')
+        #login.col-5
+          form#loginForm.login(action='/login' method='POST')
+            h2 PLEASE LOGIN HERE.
+            .form-group
+              label(for='username') Username
+              input#username.form-control(type='text' name='username' placeholder='Enter Username' required)
+            .form-group
+              label(for='password') Password
+              input#password.form-control(type='password' name='password' placeholder='Enter Password' required)
+            input#loginButton(type='submit' value='login')
+            small#adminhelp.form-text.text-muted
+              | Forgot 
+              | password? or Dont have an account? Please consult the 
+              | Administrator for Help.
+    footer(style='background-color: whitesmoke')
+      | GoneGarbageCo.&copy;
+      | 2021
+    // <script src="/validation.js"></script>

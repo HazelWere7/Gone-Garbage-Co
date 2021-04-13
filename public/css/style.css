@@ -1,0 +1,157 @@
+
+.hero-section{
+    background-color: rgb(21, 233, 113);
+
+}
+
+.logo{
+    height: 650px;
+    width: 730px;
+}
+
+#login{
+    padding: 100px;
+    }
+    
+    h2{
+    text-align: center;
+    font-weight: bold;
+    }
+    
+    #logButton{
+        background-color: #fff;
+        text-decoration: rgb(59, 221, 19);
+        font-weight: bold;
+    }
+    #regForm{
+        padding: 50px;
+        background-color: rgb(220, 230, 230);
+        font-weight: bold;
+    }
+    .intro{
+        background-color:rgb(174, 207, 207);
+        font-weight: bold;
+        text-align: center;
+        color: rgb(109, 116, 109);
+    }
+    /* #regButton{
+        font-weight: bolder;
+        background-color: rgb(141, 177, 177);
+        font-size: 25px;
+    }
+    #regReset{
+        font-weight: bolder;
+        background-color: tomato;
+        font-size: 25px;
+    }
+    #supervisorid{
+        size: 2px;
+    }
+    input[type=radio]{
+        display: block;
+        position: relative;
+        padding-left: 3px;
+        margin-bottom: 1px;
+        cursor: pointer;
+        font-size: 5px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    } */
+    #signout{
+        background-color: rgb(197, 236, 248);
+        border-radius: 20px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #signout :hover{
+        background-color: rgb(71, 166, 255);
+    }
+    
+    #loginButton{
+        font-weight: bolder;
+        background-color: rgb(193, 223, 223);
+        font-size: 20px;
+        border-radius: 15px;
+        color: #000;
+    }
+    
+    footer{
+        color: rgb(5, 5, 5);
+        font-size: 20px;
+        text-align: center;
+    }
+     
+    input{
+        border-radius: 50px;
+    }
+    
+    /* :required:invalid{ */
+        /* border: 2px solid red; */
+    /* } */
+    /*  */
+    /* :required:valid{ */
+        /* border: 2px solid #27f527; */
+    /* } */
+    
+    input[type=date]{
+        border-radius: 20px;
+    }
+    
+    input[type=text]{
+        border-radius: 20px;
+    }
+    
+    input[type=number]{
+        border-radius: 20px;
+    }
+    
+    input[type=password]{
+        border-radius: 20px;
+    }
+    
+    input[type=tel]{
+        border-radius: 20px;
+    }
+    
+    input[type=email]{
+        border-radius: 20px;
+    }
+    
+    select{
+        border-radius: 20px;
+    }
+    
+    input[type=checkbox]{
+        display: block;
+        position: relative;
+        padding-left: 3px;
+        margin-bottom: 1px;
+        cursor: pointer;
+        font-size: 5px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    
+    #footer{
+        background-color: rgb(109, 116, 109);
+        text-align: center;
+    }
+    
+    span{
+        font-size: 16px;
+    }
+    
+    #nav{
+        font-weight: bold       ;
+    }
+    
+    #login{
+        background-color: rgb(24, 90, 40);
+        color: rgb(204, 204, 204);
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
